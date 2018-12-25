@@ -14,7 +14,7 @@ import java.text.SimpleDateFormat;
 public class DateIntoEpoch {
 
     public String getEpoch(String strDate) {
-        System.out.println("This is a test machine");
+        System.out.println("This is a test machine >>");
         String data = "NA";
         try {
             Long millis = new SimpleDateFormat("MM/dd/yyyy").parse(strDate).getTime() / 1000;
